@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import React from 'react';
 import { useNavigate } from 'react-router-dom'; // Import the useNavigate hook
-import Footer from './footer'; // Импортируем Footer
 
 const Pricing = () => {
   const navigate = useNavigate(); // Initialize useNavigate
@@ -77,7 +76,6 @@ const Pricing = () => {
           </div>
         </div>
       </section>
-      <Footer /> {/* Добавляем Footer */}
     </>
   );
 };
